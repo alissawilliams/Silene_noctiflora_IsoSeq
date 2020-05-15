@@ -7,6 +7,7 @@ In this folder you'll find files related to the PacBio Iso-Seq transcriptome of 
 2. trinotate_annotation_report_full.csv.zip. This is the annotation report outputted by Trinotate. Note that you can import this file (once unzipped) into Excel. It may give you a warning about Excel versions, but open it anyway, as there doesn't seem to be anything actually wrong with it. 
 3. final.partition.txt. This is the output of the Cogent family finding algorithm (https://github.com/Magdoll/Cogent/wiki/Running-Cogent), and it can also be imported into Excel. 
 4. polished.hq.fasta.zip. This file contains all of the final transcript sequences reported by the Iso-Seq pipeline (version 3.1). 
+5. make_gene_trans_map.py. This script was used to generate our own "gene_trans_map" file for use in Trinotate (since our transcriptome data was not outputted by Trinity, it had to be put into Trinity format). 
 
 NOTE: The fasta file contains ALL of the final transcript sequences, as do the annotation and family finding files. Some of these transcripts were excluded from NCBI TSA as follows:
 - 1,166 transcripts were excluded because they were too short (less than 200 bp long). A full list can be provided if needed. 
