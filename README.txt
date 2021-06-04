@@ -1,3 +1,6 @@
+The manuscript detailing this work was published online in G3: Genes|Genomes|Genetics in June 2021. 
+Williams AM, Itgen MW, Broz AK, Carter OG*, Sloan DB. Long-read transcriptome and other genomic resources for the angiosperm Silene noctiflora. G3: Genes|Genomes|Genetics. 
+
 Alissa M. Williams 
 Alissa.Williams@colostate.edu
 May 15, 2020
